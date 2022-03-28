@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="style.css">
+        <title>Pokedex Jorge</title>
+    </head>
+<body>  
+    <div id="buscar">
+   
+    </div>
+    <div id="pokedex">
+        <h1>Pokedex Jorge</h1>
+        <img class="imanimation"src="./pokebola.png" alt="Pokemon" width="150px" id="pokeImg">
+        
+    </div>
+
+    <div id="pokedex-container">
+        <div id="pokedex-content">
+            <div id="pokedex-info">
+                <h2 id="pokeName">Nombre: </h2>
+                <h2 id="pokeId">ID: </h2>
+                <h2 id="pokeType">Tipo: </h2>
+                <h2 id="pokeHeight"> Altura: </h2>
+                <h2 id="pokeWeight">Peso: </h2>
+                <h2 id="pokeAbilities">Habilidades: </h2>
+                <h2 id="pokeStats">Status: </h2>
+                <h2 id="pokeMoves">Movimiento: </h2>
+            </div>
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="circle">
+            <input type="search" id="search" placeholder="Buscar Pokemon/ digita numero o nombre" name="poketName">
+        </div>
+        <div class="circle-2">
+            
+        </div>
+        <div class="center-1">
+            
+        </div>
+        <div class="center-2">
+             
+    <button class="button" type="submit" id="btn" onclick="fetchPokemon()"></button>
+        </div>
+        <div class="line"></div>
+      </div>
+
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>
